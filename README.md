@@ -2,6 +2,8 @@
 
 A Leiningen plugin to start an [H2 server](http://www.h2database.com/html/tutorial.html#using_server) in tcp mode.
 
+It's great to use the in-memory or file mode for H2 when you're running tests in process. There's no need for wrappers, helpers or plugins for this. Sometimes though, you need to interact with the database from more than one process, and now you need H2's tcp server to run on its own. lein-h2 can help you run the tcp server without having to download and invoke jars manually.
+
 ## Usage
 
 Put `[lein-h2 "0.1.0"]` into the `:plugins` vector of your project.clj.
