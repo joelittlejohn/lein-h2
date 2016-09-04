@@ -4,4 +4,5 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[com.h2database/h2 "1.4.192"]]
+  :deploy-repositories [["releases" :clojars]]
   :eval-in-leiningen true)
