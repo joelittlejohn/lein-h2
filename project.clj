@@ -1,4 +1,4 @@
-(defproject lein-h2 "0.1.0-SNAPSHOT"
+(defproject lein-h2 "0.1.0"
   :description "A lein plugin that runs an h2 instance in server mode"
   :url "http://github.com/joelittlejohn/lein-h2"
   :license {:name "Eclipse Public License"
